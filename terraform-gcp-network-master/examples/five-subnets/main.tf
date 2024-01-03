@@ -67,7 +67,7 @@ module "network_name" {
       filter = "ERRORS_ONLY"
   }]
 }
-# "Manually" define the subnetworks for which the NAT is used, so that we can exclude the public subnetwork
+# "Manually" define the subnetworksss for which the NAT is used, so that we can exclude the public subnetwork
 /*
 subnetwork = [{
       name                       = "Manual_name"
